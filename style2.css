@@ -1,0 +1,96 @@
+body
+    {font-family: Arial, Helvetica, sans-serif;
+background: url(fond.jpg) fixed center/cover;
+height: 100vh;
+}
+
+#bloc_page
+{width: 750px;
+margin:auto}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+#banniere_image{
+    margin-top: 5px;
+    height: 200px;
+    border-radius: 5px;
+    background:url(banniere.jpg) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+/* Navigation */
+    
+nav ul{
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    border: 3px solid blue;
+    box-shadow: 6px 6px 0px blueviolet;
+    background-color: aliceblue;
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+}
+
+nav li{
+    margin-left: 20px;
+    
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: :3px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#760001;
+    border-bottom: 3px solid #760001;
+}
+
+article
+{
+    width: 75%;
+    margin-left: 10px;
+    border-bottom: 15px dotted darkred;
+    border-top: 15px dotted darkred;
+    border-right: 15px solid darkred;
+    border-left: 15px solid darkred;
+    background-color: rgb(75,214,210);
+    padding: 5px 20px 5px 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+h2
+    {font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkblue;
+}
+
+h3
+    {font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkred;
+}
+
+mark{
+    background-color: rgb(243, 239, 90);
+}
+
+footer{
+    display: flex;
+    padding-top: 100px;   
+}
