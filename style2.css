@@ -1,0 +1,141 @@
+body
+    {font-family: Arial, Helvetica, sans-serif;
+background: url(fond.jpg) fixed center/cover;
+height: 100vh;
+}
+
+#bloc_page
+{width: 1300px;
+margin:auto}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+        font-size: 40px;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }
+    nav a
+    {
+        font-size: 1em;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+    article
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+#banniere_image{
+    margin-top: 5px;
+    height: 200px;
+    border-radius: 5px;
+    background:url(banniere.jpg) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+/* Navigation */
+    
+nav ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    border: 3px solid blue;
+    box-shadow: 6px 6px 0px blueviolet;
+    background-color: aliceblue;
+    padding: 5px 5px 5px 5px;
+}
+
+nav li{
+    margin-left: 20px; 
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: :3px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:darkblue;
+    border-bottom: 3px solid red;
+}
+
+article
+{
+    border-bottom: 15px dotted darkred;
+    border-top: 15px dotted darkred;
+    border-right: 15px solid darkred;
+    border-left: 15px solid darkred;
+    background-color: rgb(75,214,210);
+    padding: 5px 20px 5px 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+h2
+    {font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkblue;
+}
+
+h3
+    {font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: darkred;
+}
+
+mark{
+    background-color: rgb(243, 239, 90);
+}
+
+footer{
+    display: flex;
+    padding-top: 100px;   
+}
+
+a{
+    color: darkblue;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: yellow;
+    text-decoration: underline darkblue;
+}
